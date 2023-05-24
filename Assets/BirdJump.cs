@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// hi
+
 public class BirdJump : MonoBehaviour
 {
     Rigidbody2D rb;
@@ -12,8 +14,8 @@ public class BirdJump : MonoBehaviour
     {
         // Debug.Log("start");
         rb = GetComponent<Rigidbody2D>();
-        
-        
+
+
     }
 
     // Update is called once per frame
@@ -35,6 +37,6 @@ public class BirdJump : MonoBehaviour
             Score.bestScore = Score.score;
         }
         SceneManager.LoadScene("GameOverScene");
-        
+
     }
 }
